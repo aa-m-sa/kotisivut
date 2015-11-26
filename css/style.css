@@ -4,7 +4,7 @@ html {
 }
 
 body {
-  padding-top: 50px;
+  padding-top: 0px;
   /* Margin bottom by footer height */
   margin-bottom: 60px;
 
@@ -12,12 +12,20 @@ body {
 
 }
 
-.main {
+section {
+  padding: 0px 15px;
+}
+
+section.intro {
   padding: 40px 15px;
   text-align: center;
 }
 
-.main h1 {
+.intro h1 {
+  font-weight: bold;
+}
+
+body h2 {
   font-weight: bold;
 }
 
