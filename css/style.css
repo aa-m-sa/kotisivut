@@ -7,11 +7,18 @@ body {
   padding-top: 50px;
   /* Margin bottom by footer height */
   margin-bottom: 60px;
+
+  font-family: 'Gudea', Helvetica, Arial, sans-serif;
+
 }
 
 .main {
   padding: 40px 15px;
   text-align: center;
+}
+
+.main h1 {
+  font-weight: bold;
 }
 
 .footer {
